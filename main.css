@@ -1,0 +1,228 @@
+@media (min-width: 700px){
+header {
+    position: absolute;
+    display: flex;
+    width: 90vw;
+    padding: 20px;
+    justify-content:space-between;
+    color: #fff;
+}
+header div {
+    width: 100%;
+}
+a, a:hover {
+    color: #fff;
+}
+#nav {
+    right: 0;
+}
+#nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+.magnifying {
+    top: 20px;
+    margin: 0 0 0 15px;
+    right: 0;
+}
+.i{
+    color: #fff;
+}
+#initial {
+    background: url("img/mulheres3.png"), url("img/mulheres-fundo.png");
+    background-color: #000;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain, cover;
+    padding: 250px;
+}
+
+
+#cabecalho {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+#second {
+
+}
+#third {
+
+}
+
+#fourth {
+
+}
+.gallery {
+    display: inline-flex;
+    max-width: 90%;
+}
+img {
+    border-radius: 15px;
+    max-width: 95%;
+    padding: 10px;
+}
+#seventh {
+    width: 100vw;
+    justify-items: center;
+    align-items: center;
+}
+#venueDiv {
+    width: 90%;
+    display: inline-flex;
+    /* justify-items: center;
+    align-items: center; */
+}
+.venueMap {
+    width: 60%;
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    right: 3%;
+    left: 2%;
+}
+.venueImg {
+    width: 35%;
+    left: 0;
+}
+
+}
+@media all {
+    *{
+        font-family: Roboto;
+        font-size: 28px;
+        margin: 0;
+        padding: 0;
+    }
+    .title {
+        font-family: Roboto;
+        font-size: 28pt;
+        line-height: 1.21;
+        font-weight: 100;
+        margin-top: 20px;
+    }
+    .rsvp {
+        background-color: #fff;
+        color: #000;
+        padding: 10px 55px;
+        border-radius: 5px;
+    }
+    #before {
+        color: transparent;
+    }
+    .gelo {
+        background-color:mintcream;
+        text-align: center;
+    }
+    .amarelo {
+        background-color: gold;
+        text-align: center;
+    }
+    .video {
+        width: 94%;
+        overflow:hidden;
+        padding-bottom:56.25%;
+        position:relative;
+        height:0;
+        right: 3%;
+        left: 3%;
+    }
+    .venueMap iframe, .video iframe{
+        left:0;
+        top:0;
+        height:100%;
+        width:100%;
+        position:absolute;
+    }
+    form {
+        margin: 0 auto;
+        width: 80%;
+        padding: 1em;
+        border: 1px solid #CCC;
+        border-radius: 1em;
+    }
+    form div + div {
+        margin-top: 1em;
+    }
+    label {
+        display:flex;
+        flex-direction: column;
+        text-align: center;
+        font: 0.6em sans-serif;
+    }
+    input, textarea {
+        font: 1em sans-serif;
+        width: 80%;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        border: 1px solid #999;
+    }
+    input:focus, textarea:focus {
+        border-color: #000;
+    }
+    textarea {
+        vertical-align: top;
+        height: 5em;
+        resize: vertical;
+    }
+    .button {
+        padding: 20px;
+    }
+    button {
+        margin: .5em;
+    }
+}
+@media (max-width: 699px){
+
+    header {
+        /* position: absolute; */
+        display:flex;
+        justify-content: space-between;
+        padding: 20px;
+        margin-bottom: 0;
+        width: auto;
+        color: #fff;
+        background: url("img/mulheres-fundo.png");
+        background-color: #000000;
+    }
+    a, a:hover {
+        color: #fff;
+    }
+    #nav {
+        right: 0;
+    }
+    #nav li {
+        display: inline;
+        margin: 0 0 0 15px;
+    }
+    .magnifying {
+        top: 20px;
+        margin: 0 0 0 15px;
+        right: 0;
+    }
+    #initial {
+        background: url("img/mulheres3.png"), url("img/mulheres-fundo.png");
+        background-color: #000;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 50vh;
+        padding: 0;
+        color: #fff;
+    }
+    img {
+        border-radius: 15px;
+        max-width: 95%;
+        padding: 10px;
+    }
+    .venueMap {
+        width: 94%;
+        overflow:hidden;
+        padding-bottom:56.25%;
+        position:relative;
+        height:0;
+        right: 3%;
+        left: 3%;
+    }
+}
